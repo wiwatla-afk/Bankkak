@@ -63,6 +63,10 @@ export default function Index() {
       <Link href="/resort" style={styles.link}>
         <Text style={styles.linkText}>resort</Text>
       </Link>
+      <Link href="/health" style={styles.link}>
+      <Text style={styles.linkText}>Health</Text>
+      </Link>
+
     </ScrollView>
   );
 }
